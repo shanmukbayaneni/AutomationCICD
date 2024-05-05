@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <listeners>
+        <listener class-name="Maven_Project.TestComponents.Testcomponents.Listeners"/>
+    </listeners>
+
+
+<!--   <test thread-count="5" name="submit-order test">-->
+<!--        <classes>-->
+<!--            <class name="Maven_Project.TestComponents.ErrorValidation"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test  name="checking final result">
+        <classes>
+            <class name="Maven_Project.Testing"></class>
+        </classes>
+    </test>
+</suite>

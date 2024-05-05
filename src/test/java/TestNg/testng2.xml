@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <parameter name="URL" value="qaclickacademy.com"/>
+    <test name="Personal Loan">
+        <classes>
+            <class name="TestNg.day3"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+
+    <test name="car loan">
+        <parameter name="URL" value="carloan.com"/>
+        <parameter name="APIKey/username" value="123456"/>
+        <classes>
+            <class name="TestNg.day2"/>
+        </classes>
+    </test>
+</suite>

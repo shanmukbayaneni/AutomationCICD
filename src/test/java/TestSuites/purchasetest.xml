@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <listeners>
+        <listener class-name="Maven_Project.TestComponents.Testcomponents.Listeners"></listener>
+    </listeners>
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="purchase order"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+
+    <test name="submit-order test">
+        <classes>
+            <class name="Maven_Project.Testing"/>
+        </classes>
+    </test>
+
+</suite>
