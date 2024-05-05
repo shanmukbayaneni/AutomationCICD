@@ -21,6 +21,7 @@ public class Testing extends Base
     public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException {
 
 
+	//added a few more comments
         ProductCatalogue productCatalogue=landingpage.loginApplication(input.get("email"),input.get("password"));
 
         List<WebElement> products = productCatalogue.getproductList();
